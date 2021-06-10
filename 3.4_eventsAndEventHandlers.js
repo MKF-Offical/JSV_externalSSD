@@ -12,3 +12,5 @@ function handleClick() {
 };
 
 title.addEventListener("click",handleClick);
+
+console.dir(title);
