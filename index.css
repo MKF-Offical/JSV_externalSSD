@@ -1,9 +1,10 @@
 body {
-  background-color: rgb(255, 247, 239);
+  background-color:beige;
 }
 h1 {
-  color: rgb(23, 23, 54);
+  color: cornflowerblue;
+  transition:color .5s ease-in-out;
 }
-#title {
-  color: rgb(23, 23, 54);
+.clicked{
+  color:tomato;
 }
