@@ -7,7 +7,7 @@ console.log(chosenimage);
 // <img src="img/jordan??.jpg" / >
 // MAKE THIS MTF IN JS AND SAND TO HTML
 
-const bgImage = document.createElement("img");
+const bgImage = document.createElement("img"); //WHICH MEANS CREATING HTML TAGS
 
 bgImage.src = `img/${chosenimage}`;
 
