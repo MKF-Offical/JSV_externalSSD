@@ -2,21 +2,39 @@
   <html>
     <head>
       <title>Something</title>
-      <link rel="stylesheet" href="cs/index.css" />
+      <link rel="stylesheet" href="css/4.0_login_InputValues.css" />
     </head>
     <body>
-      <div class="hello">
-        <h1 class="sick-font">GRAB ME!_00</h1>
-        <h2>WTF?</h2>
+      <h1>THIS IS FUCKIN 4.000</h1>
+      <form class="hidden" id="login-form">
+        <input
+          required
+          maxlength="5"
+          type="text"
+          placeholder="What is your name?"
+        />
+        <button>Log in</button>
+      </form>
+      <h1 id="greeting" class="hidden"></h1>
+      <h2 id="clock">00:00:00</h2>
+      <div id="quote">
+        <span></span>
+        <span></span>
       </div>
-      <div class="hello00">
-        <h1>GRAB ME!_01</h1>
-      </div>
-      <div class="hello01">
-        <h1>GRAB ME!_02</h1>
-      </div>
-
-      <script src="js/3.7_cssInJsv.js"></script>
+      <form id="todo-form">
+        <input
+          type="text"
+          placeholder="Write a TO DO and press enter."
+          required
+        />
+      </form>
+      <ul id="todo-list"></ul>
+      <a href="https://nomadcoders.co/">Go to courses.</a>
+      <script src="js/5.0_greetings.js"></script>
+      <script src="js/5.0_clock.js"></script>
+      <script src="js/6.0_quotes.js"></script>
+      <script src="js/6.0_background.js"></script>
+      <script src="js/7.0_todo.js"></script>
     </body>
   </html>
 </DOCTYPE>
